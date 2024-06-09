@@ -1,0 +1,103 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/portada\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+
+ul.portada.my-5 {
+  list-style-type: none; 
+}
+
+#Acerca-de-mi {
+ background-color: rgb(218, 215, 229);
+ font-size: 22px;
+
+}
+
+.bg-custom {
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(125, 129, 137, 0.75)),
+              url('../img/img-4.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding-bottom: 0;
+
+}
+
+.bg-custom2{
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(125, 129, 137, 0.75)),
+              url('../img/img-5.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding-bottom: 0;
+
+}
+
+.card {
+  transition: transform 0.3s ease, color 0.3s ease;
+  }
+    
+  .card:hover {
+  transform: scale(1.15); 
+  z-index: 1; 
+  }
+
+  .form-group{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 16px; 
+    transition: transform 0.3s ease;
+    }
+  
+    .form-group:hover {
+      transform: scale(1.15); 
+      z-index: 1; 
+    }  
+    
+    
+    .form-control {
+      border: 2px solid #3f454a; 
+      border-radius: 5px; 
+      padding: 10px; 
+      transition: border-color 0.3s ease-in-out; 
+    }
+
+    .form-control:focus {
+      border-color: #b34500; 
+      outline: none; 
+    }
