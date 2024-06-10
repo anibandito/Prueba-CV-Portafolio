@@ -1,6 +1,6 @@
 URL PROYECTO : https://luisabrahameo.github.io/Prueba-CV-Portafolio/
 
-
+hr
 URL FORK
 Fork 1 : https://github.com/LuisAbrahamEO/CVDLAT-REPO-FORK
 ![Captura de pantalla 2024-06-09 201604](https://github.com/LuisAbrahamEO/Prueba-CV-Portafolio/assets/94147062/248bcfb8-7852-4a44-bf72-e656c0e1c3a1)
