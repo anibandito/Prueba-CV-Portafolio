@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-}
+  }
 
 
 /* Mis trabajos */
@@ -44,14 +44,14 @@ ul.portada.my-5 {
 }
 
 #Acerca-de-mi {
- background-color: rgb(218, 215, 229);
+ background-color: rgba(139, 232, 227, 0.858);
  font-size: 22px;
 
 }
 
 .bg-custom {
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(125, 129, 137, 0.75)),
+  background: linear-gradient(rgba(23, 59, 148, 0.75), rgba(156, 161, 171, 0.75)),
               url('../img/img-4.jpg') no-repeat center center fixed;
   background-size: cover;
   padding-bottom: 0;
@@ -91,13 +91,13 @@ ul.portada.my-5 {
     
     
     .form-control {
-      border: 2px solid #3f454a; 
+      border: 2px solid #3796e4; 
       border-radius: 5px; 
       padding: 10px; 
       transition: border-color 0.3s ease-in-out; 
     }
 
     .form-control:focus {
-      border-color: #b34500; 
+      border-color: #000fb3; 
       outline: none; 
     }
